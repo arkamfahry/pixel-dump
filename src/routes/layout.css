@@ -1,1 +1,78 @@
 @import 'tailwindcss';
+
+:root {
+	color-scheme: light;
+	--bg: #fafafa;
+	--panel: #e5e5e6;
+	--panel-2: #e5e5e6;
+	--fg: #383a42;
+	--muted: #a0a1a7;
+	--line: #e5e5e6;
+	--line-strong: #d0d0d4;
+	--accent: #4078f2;
+	--accent-2: #e5c07b88;
+	--accent-3: #50a14f;
+	--on-accent: #202227;
+	--highlight: rgba(64, 120, 242, 0.1);
+	--text-highlight: #e5c07b88;
+	--syn-red: #e45649;
+	--syn-orange: #986801;
+	--syn-cyan: #0184bc;
+	--syn-purple: #a626a4;
+	--syn-green: #50a14f;
+}
+
+.dark {
+	color-scheme: dark;
+	--bg: #282c34;
+	--panel: #3a3f4b;
+	--panel-2: #3a3f4b;
+	--fg: #abb2bf;
+	--muted: #5c6370;
+	--line: #3a3f4b;
+	--line-strong: #4a5161;
+	--accent: #61afef;
+	--accent-2: #e5c07b88;
+	--accent-3: #98c379;
+	--on-accent: #282c34;
+	--highlight: rgba(97, 175, 239, 0.15);
+	--text-highlight: #e5c07b88;
+	--syn-red: #e06c75;
+	--syn-orange: #d19a66;
+	--syn-cyan: #56b6c2;
+	--syn-purple: #c678dd;
+	--syn-green: #98c379;
+}
+
+@theme {
+	--font-sans: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	--font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	--color-bg: var(--bg);
+	--color-panel: var(--panel);
+	--color-panel-2: var(--panel-2);
+	--color-fg: var(--fg);
+	--color-muted: var(--muted);
+	--color-line: var(--line);
+	--color-line-strong: var(--line-strong);
+	--color-accent: var(--accent);
+	--color-accent-2: var(--accent-2);
+	--color-accent-3: var(--accent-3);
+	--color-on-accent: var(--on-accent);
+	--color-highlight: var(--highlight);
+	--color-text-highlight: var(--text-highlight);
+	--color-syn-red: var(--syn-red);
+	--color-syn-orange: var(--syn-orange);
+	--color-syn-cyan: var(--syn-cyan);
+	--color-syn-purple: var(--syn-purple);
+	--color-syn-green: var(--syn-green);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--bg);
+	color: var(--fg);
+	font-family: var(--font-sans);
+}
