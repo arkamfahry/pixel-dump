@@ -24,7 +24,7 @@
 			<span class="text-syn-cyan">01</span> // about
 		</h2>
 		<p class="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
-			Turning ideas into clean, working code.
+			Turning ideas into clean, somewhat working code.
 		</p>
 
 		<div class="mt-10 grid gap-5 md:grid-cols-3">
