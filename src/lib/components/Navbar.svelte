@@ -5,6 +5,7 @@
 		{ href: '#hero', label: 'Home' },
 		{ href: '#about', label: 'About' },
 		{ href: '#projects', label: 'Projects' },
+		{ href: 'https://arkamfahry.github.io/bit-dump', label: 'Blog', target: '_blank' },
 		{ href: '#contact', label: 'Contact' }
 	];
 
@@ -51,6 +52,7 @@
 				<a
 					href={link.href}
 					rel="external"
+					target={link.target ?? '_self'}
 					class="font-mono text-xs tracking-wider text-muted uppercase transition-colors hover:text-accent"
 				>
 					{link.label}
