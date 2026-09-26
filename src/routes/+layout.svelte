@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Pixel Dump</title>
+	<title>PixelDump</title>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 {@render children()}
