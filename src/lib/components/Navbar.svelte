@@ -43,7 +43,7 @@
 
 <header class="sticky top-0 z-50 border-b border-line bg-bg/80 backdrop-blur">
 	<nav class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6" aria-label="Primary">
-		<a href="#hero" rel="external" class="font-mono text-base font-bold tracking-tight text-fg">
+		<a href="#hero" rel="external" class="text-base font-bold tracking-tight text-fg">
 			<span class="text-accent">&gt;_</span> Pixel Dump
 		</a>
 
@@ -53,7 +53,7 @@
 					href={link.href}
 					rel="external"
 					target={link.target ?? '_self'}
-					class="font-mono text-xs tracking-wider text-muted uppercase transition-colors hover:text-accent"
+					class="text-xs tracking-wider text-muted uppercase transition-colors hover:text-accent"
 				>
 					{link.label}
 				</a>
@@ -134,7 +134,7 @@
 				<a
 					href={link.href}
 					rel="external"
-					class="block py-2.5 font-mono text-xs tracking-wider text-muted uppercase transition-colors hover:text-accent"
+					class="block py-2.5 text-xs tracking-wider text-muted uppercase transition-colors hover:text-accent"
 					onclick={() => (open = false)}
 				>
 					{link.label}

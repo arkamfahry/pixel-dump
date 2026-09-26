@@ -45,8 +45,8 @@
 }
 
 @theme {
-	--font-sans: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 	--font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	--font-sans: var(--font-mono);
 	--color-bg: var(--bg);
 	--color-panel: var(--panel);
 	--color-panel-2: var(--panel-2);

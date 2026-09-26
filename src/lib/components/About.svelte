@@ -20,7 +20,7 @@
 
 <section id="about" class="border-t border-line bg-panel py-20">
 	<div class="mx-auto max-w-6xl px-6">
-		<h2 class="font-mono text-sm text-muted">
+		<h2 class="text-sm text-muted">
 			<span class="text-syn-cyan">01</span> // about
 		</h2>
 		<p class="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
@@ -30,9 +30,9 @@
 		<div class="mt-10 grid gap-5 md:grid-cols-3">
 			{#each cards as card (card.tag)}
 				<article class="rounded border border-line bg-bg p-6">
-					<h3 class="font-mono text-sm font-semibold {card.className}">{card.tag}</h3>
+					<h3 class="text-sm font-semibold {card.className}">{card.tag}</h3>
 					<div class="mt-3 h-px w-full bg-line-strong"></div>
-					<p class="mt-4 font-mono text-sm leading-relaxed text-muted">{card.body}</p>
+					<p class="mt-4 text-sm leading-relaxed text-muted">{card.body}</p>
 				</article>
 			{/each}
 		</div>

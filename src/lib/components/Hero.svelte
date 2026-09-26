@@ -9,13 +9,13 @@
 
 <section id="hero" class="relative grid min-h-screen place-items-center bg-bg">
 	<div class="mx-auto w-full max-w-6xl px-6">
-		<p class="font-mono text-sm text-muted">// A pixel dump by an overheating mind.</p>
+		<p class="text-sm text-muted">// A pixel dump by an overheating mind.</p>
 
-		<h1 class="mt-4 font-mono text-5xl font-bold tracking-tight text-fg sm:text-6xl md:text-7xl">
+		<h1 class="mt-4 text-5xl font-bold tracking-tight text-fg sm:text-6xl md:text-7xl">
 			Arkam <span class="text-syn-purple">Fahri</span>
 		</h1>
 
-		<p class="mt-6 max-w-2xl font-mono text-base leading-relaxed text-muted">
+		<p class="mt-6 max-w-2xl text-base leading-relaxed text-muted">
 			I programme and build stuff. Ideas get dumped here, prototyped, and polished into reality —
 			whatever form that takes.
 		</p>
@@ -23,7 +23,7 @@
 		<div class="mt-8 flex flex-wrap gap-2">
 			{#each skills as skill (skill.name)}
 				<span
-					class="rounded border border-line bg-panel px-3 py-1 font-mono text-sm {skill.className}"
+					class="rounded border border-line bg-panel px-3 py-1 text-sm {skill.className}"
 				>
 					[ {skill.name} ]
 				</span>
