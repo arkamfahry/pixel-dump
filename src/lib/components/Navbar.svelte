@@ -41,9 +41,9 @@
 	}
 </script>
 
-<header class="sticky top-0 z-50 border-b border-line bg-bg/80 backdrop-blur">
+<header class="sticky top-0 z-50 border-b border-line bg-bg">
 	<nav class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6" aria-label="Primary">
-		<a href="#hero" rel="external" class="text-base font-bold tracking-tight text-fg">
+		<a href="#hero" rel="external" class="text-xl font-bold tracking-tight text-fg">
 			<span class="text-accent">&gt;_</span> Pixel Dump
 		</a>
 
@@ -53,7 +53,7 @@
 					href={link.href}
 					rel="external"
 					target={link.target ?? '_self'}
-					class="text-xs tracking-wider text-muted uppercase transition-colors hover:text-accent"
+					class="text-sm tracking-wider text-muted uppercase transition-colors hover:text-accent"
 				>
 					{link.label}
 				</a>
